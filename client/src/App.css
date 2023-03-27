@@ -6,9 +6,10 @@
 
 .center {
   display: flex;
-  justify-content: center;
+  align-items: center;
   width: 100%;
   margin-top: 30px;
+  flex-direction: column;
 }
 
 .form {
@@ -38,7 +39,8 @@
   cursor: pointer;
 }
 
-.form button:focus, .form input:focus {
+.form button:focus,
+.form input:focus {
   outline: none;
 }
 
